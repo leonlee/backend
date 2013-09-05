@@ -2,13 +2,13 @@ for dir in libs/*;
 do
 if [ -d "$dir" ]
 then
-(cd "$dir" && git commit -am'$1');
+(cd "$dir" && git add .);
 fi
 done
 for dir in servers/*;
 do
 if [ -d "$dir" ]
 then
-(cd "$dir" && git -am'$1');
+(cd "$dir" && git add .);
 fi
 done
