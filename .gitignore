@@ -1,0 +1,14 @@
+.eunit
+deps
+*.o
+*.beam
+*.plt
+erl_crash.dump
+.idea
+*.iml
+*.ipr
+ebin
+log
+out/
+libs/*/
+servers/*/
