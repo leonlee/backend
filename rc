@@ -1,0 +1,15 @@
+for dir in libs/*; 
+do 
+if [ -d "$dir" ]
+then
+(cd "$dir" && ./rebar compile); 
+fi
+done
+for dir in servers/*; 
+do 
+if [ -d "$dir" ]
+then
+(cd "$dir" && ./rebar compile); 
+fi
+done
+
